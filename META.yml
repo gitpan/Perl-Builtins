@@ -4,6 +4,7 @@ author:
   - 'David Farrell <sillymoos@cpan.org>'
 build_requires:
   Test::More: '0'
+  strict: '0'
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
 dynamic_config: 0
@@ -14,9 +15,10 @@ meta-spec:
   version: '1.4'
 name: Perl-Builtins
 requires:
-  strict: '0'
+  Pod::Functions: '0'
+  perl: '5.008'
   warnings: '0'
 resources:
   homepage: https://github.com/sillymoose/Perl-Builtins
   repository: https://github.com/sillymoose/Perl-Builtins.git
-version: '0.01'
+version: '0.02'
