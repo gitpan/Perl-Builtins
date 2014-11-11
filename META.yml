@@ -21,4 +21,4 @@ requires:
 resources:
   homepage: https://github.com/sillymoose/Perl-Builtins
   repository: https://github.com/sillymoose/Perl-Builtins.git
-version: '0.02'
+version: '0.03'

@@ -1,7 +1,7 @@
 use 5.008;
 use warnings;
 package Perl::Builtins;
-$Perl::Builtins::VERSION = '0.02';
+$Perl::Builtins::VERSION = '0.03';
 use Pod::Functions '%Type';
 
 #ABSTRACT: A list of all Perl 5 built functions
@@ -23,7 +23,10 @@ Perl::Builtins - A list of all Perl 5 built functions
 
 =head1 VERSION
 
-version 0.02
+version 0.03
+
+=for HTML <a href="https://travis-ci.org/sillymoose/Perl-Builtins"><img src="https://travis-ci.org/sillymoose/Perl-Builtins.svg?branch=master"></a>
+<a href='https://coveralls.io/r/sillymoose/Perl-Builtins'><img src='https://coveralls.io/repos/sillymoose/Perl-Builtins/badge.png' alt='Coverage Status' /></a>
 
 =head2 SYNOPSIS
 
